@@ -1,5 +1,6 @@
 # app.py
 #Alertes
+#Alertes 2
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from models import db, User, Product, Category, Zone, Inventory, Sensor, SensorData, Alert, Order, OrderPrediction
